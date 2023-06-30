@@ -14,7 +14,7 @@ menu.addEventListener('click', mobileMenu);
 const highlightMenu = () => {
   const elem = document.querySelector('.highlight');
   const socialsMenu = document.querySelector('#socials-page');
-  const aboutMenu = document.querySelector('#about-page');
+  const aboutMenu = document.querySelector('#timeline-page');
   const quotesMenu = document.querySelector('#quotes-page');
   let scrollPos = window.scrollY;
 
@@ -23,12 +23,12 @@ const highlightMenu = () => {
     socialsMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 900 && scrollPos < 1400) {
+  } else if (window.innerWidth > 900 && scrollPos < 1600) {
     aboutMenu.classList.add('highlight');
     socialsMenu.classList.remove('highlight');
     quotesMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 900 && scrollPos < 2345) {
+  } else if (window.innerWidth > 900 && scrollPos < 6000) {
     quotesMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
