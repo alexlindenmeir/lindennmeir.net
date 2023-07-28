@@ -23,7 +23,7 @@ const highlightMenu = () => {
     socialsMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 900 && scrollPos < 1600) {
+  } else if (window.innerWidth > 900 && scrollPos < 1900) {
     aboutMenu.classList.add('highlight');
     socialsMenu.classList.remove('highlight');
     quotesMenu.classList.remove('highlight');
