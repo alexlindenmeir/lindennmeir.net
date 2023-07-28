@@ -404,6 +404,12 @@ body{
 .container:nth-child(7) {
   animation-delay: 6s;  
 }
+.container:nth-child(8) {
+  animation-delay: 7s;  
+}
+.container:nth-child(9) {
+  animation-delay: 8s;  
+}
 
 .text-box {
   padding: 20px 30px;
